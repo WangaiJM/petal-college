@@ -1,20 +1,3 @@
-/* ==== Variables ==== */
-:root {
-  --bg-color: #ffffff;
-  --text-color: #111111;
-  --link-color: #007bff;
-  --accent-color: #28a745;
-  --muted-text: #666666;
-}
-
-[data-theme="dark"] {
-  --bg-color: #121212;
-  --text-color: #eeeeee;
-  --link-color: #4dabf7;
-  --accent-color: #66ff99;
-  --muted-text: #aaaaaa;
-}
-
 /* ==== RESET ==== */
 html {
   font-size: 62.5%;
