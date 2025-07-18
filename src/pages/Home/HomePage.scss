@@ -1,0 +1,22 @@
+.courses {
+  margin-top: 3rem;
+
+  &__subtitle {
+    color: var(--accent-color);
+  }
+  &__title {
+    color: var(--link-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+  }
+}
+@media (min-width: 650px) {
+  .courses {
+    &__card-container {
+      display: flex;
+      align-items: stretch;
+      gap: 2rem;
+    }
+  }
+}
