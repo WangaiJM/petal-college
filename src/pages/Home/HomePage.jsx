@@ -8,6 +8,7 @@ import "./HomePage.scss";
 import welcomeImage from "./../../assets/images/agri.jpg";
 import donateImage from "./../../assets/images/donate.jpg";
 import gamesImage from "./../../assets/images/games.jpg";
+import Footer from "../../components/footer/Footer";
 
 const HomePage = () => {
   const welcome__message = [
@@ -59,6 +60,7 @@ const HomePage = () => {
         </div>
       </section>
       {/* End Courses Section */}
+      <Footer />
     </>
   );
 };
