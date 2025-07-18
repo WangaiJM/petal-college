@@ -1,0 +1,30 @@
+.banner {
+  height: 35rem;
+  background-color: var(--accent-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 5rem;
+  color: var(--bg-color);
+
+  &__title {
+    font-size: 4rem;
+  }
+  &__message {
+    font-size: 1.8rem;
+  }
+  &__button {
+    border: 1px solid var(--bg-color);
+    border-radius: 5rem;
+    padding: 0.1rem 4rem;
+    margin-top: 4rem;
+    color: var(--bg-color);
+    transition: all 600ms ease-in-out;
+
+    &:hover {
+      background-color: var(--bg-color);
+      color: var(--accent-color);
+    }
+  }
+}
