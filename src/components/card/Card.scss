@@ -2,9 +2,10 @@
 
 .card {
   border-radius: 3rem;
-  border: 2px solid color.adjust(#000, $lightness: 80%);
+  // border: 2px solid color.adjust(#000, $lightness: 80%);
   margin-bottom: 3rem;
   background-color: color.adjust(#000, $lightness: 90%);
+  box-shadow: 0 4px 8px rgba(0, 255, 21, 0.3);
 
   &__image {
     border-radius: 3rem 3rem 0 0;

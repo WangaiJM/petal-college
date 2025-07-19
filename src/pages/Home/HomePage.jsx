@@ -2,13 +2,14 @@ import NavBar from "../../components/navbar/NavBar";
 import Banner from "../../components/banner/Banner";
 import WelcomeSection from "../../components/welcome/WelcomeSection";
 import Card from "../../components/Card/Card";
+import Footer from "../../components/footer/Footer";
+import ButtonTop from "../../components/buttonTop/ButtonTop";
 
 import "./HomePage.scss";
 
 import welcomeImage from "./../../assets/images/agri.jpg";
 import donateImage from "./../../assets/images/donate.jpg";
 import gamesImage from "./../../assets/images/games.jpg";
-import Footer from "../../components/footer/Footer";
 
 const HomePage = () => {
   const welcome__message = [
@@ -61,6 +62,7 @@ const HomePage = () => {
       </section>
       {/* End Courses Section */}
       <Footer />
+      <ButtonTop />
     </>
   );
 };
