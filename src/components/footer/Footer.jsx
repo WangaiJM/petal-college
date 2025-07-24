@@ -7,16 +7,16 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <div className="footer">
-      <h2 className="footer__title">Petal College</h2>
+      <h2 className="footer__title">Petal Ladies Vocational Training Center</h2>
       <div className="container">
         <div className="footer__info">
           <div className="footer__address">
-            <p>P.O Box 842 - 20117 </p>
+            <p>P.O Box 659 - 20117 </p>
             <p>Naivasha, Kenya</p>
           </div>
           <div className="footer__contacts">
             <p>
-              <strong>Phone: </strong>+254 723 060034
+              <strong>Phone: </strong>+254 795 017139
             </p>
             <p>
               <strong>Email: </strong>petalvtc@gmail.com

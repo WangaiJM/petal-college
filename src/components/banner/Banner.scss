@@ -10,9 +10,14 @@
 
   &__title {
     font-size: 4rem;
+    text-align: center;
   }
   &__message {
     font-size: 1.8rem;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
   }
   &__button {
     border: 1px solid var(--bg-color);

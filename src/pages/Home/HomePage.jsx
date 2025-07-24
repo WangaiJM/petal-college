@@ -7,22 +7,30 @@ import ButtonTop from "../../components/buttonTop/ButtonTop";
 
 import "./HomePage.scss";
 
-import welcomeImage from "./../../assets/images/agri.jpg";
-import donateImage from "./../../assets/images/donate.jpg";
-import gamesImage from "./../../assets/images/games.jpg";
+import welcomeImage from "./../../assets/images/admin_block.jpg";
+import fashionImage from "./../../assets/images/fashion_design.jpg";
+import tourismImage from "./../../assets/images/girls.jpg";
+import ictImage from "./../../assets/images/ICT.jpg";
 
 const HomePage = () => {
   const welcome__message = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim sit amet sem ac fermentum. Nullam viverra cursus mauris, non porta erat congue ac. Sed arcu massa, sagittis non ante in, sagittis malesuada lorem. Sed pellentesque ullamcorper cursus. ",
-    "Maecenas iaculis faucibus mauris, et ornare tortor. Integer dignissim sit amet sem ac fermentum. Nullam viverra cursus mauris, non porta erat congue ac. Fusce porttitor pellentesque ex dapibus venenatis. ",
+    "At Petal Girls Vocational Training Center, we believe in the power of education to transform lives. As a girls-only institution attached to Petal Girls School, we are committed to providing a safe, supportive, and inspiring environment where young women can gain practical skills, confidence, and independence. ",
+    "Our programs are designed to equip students with hands-on training in marketable fields, preparing them not only for employment but also for entrepreneurship and community leadership. We take pride in nurturing well-rounded individuals who are passionate, skilled, and ready to make a positive impact in the world. ",
+    "Whether you are a prospective student, a parent, or a partner, we invite you to explore our website and discover how we’re shaping the future—one girl at a time.",
+    "Karibu sana.",
   ];
 
   return (
     <>
       <NavBar />
-      <Banner title={"Welcome"} message={"Learning Today, Leading Tomorrow"} />
+      <Banner
+        title={
+          "Empowering Girls Through Practical Skills and Lifelong Learning"
+        }
+        message={""}
+      />
       <WelcomeSection
-        title={"Welcome to Petal College"}
+        title={"Welcome to Petal Girls Vocational Training Center"}
         message={welcome__message}
         image={welcomeImage}
         img_alt={"Welcome Image"}
@@ -34,27 +42,27 @@ const HomePage = () => {
           <h2 className="courses__title">Popular Courses</h2>
           <div className="courses__card-container">
             <Card
-              image={welcomeImage}
+              image={ictImage}
               img_alt={"Card 1 Image"}
-              title={"Web Development"}
+              title={"ICT"}
               description={
-                "Et architecto provident deleniti facere repellat nobis iste."
+                "Equip yourself with essential digital skills for the modern workplace. Our ICT course covers computer applications, programming, and digital literacy—empowering you to thrive in today's tech-driven world."
               }
             />
             <Card
-              image={donateImage}
+              image={tourismImage}
               img_alt={"Card 2 Image"}
-              title={"Hospitality"}
+              title={"Tourism and Hospitality"}
               description={
-                "Et architecto provident deleniti facere repellat nobis iste.  "
+                "Discover exciting opportunities in Kenya’s vibrant hospitality and tourism industry. This course equips you with customer service skills, front office operations, food and beverage service, and travel management essentials—preparing you for a dynamic and rewarding career."
               }
             />
             <Card
-              image={gamesImage}
+              image={fashionImage}
               img_alt={"Card 3 Image"}
-              title={"Physical Education"}
+              title={"Fashion and Design"}
               description={
-                " Id facere quia quae dolores dolorem tempore.Et architecto provident deleniti facere repellat nobis iste."
+                "Unleash your creativity and bring ideas to life through fabric and style. Our Fashion and Design course trains you in garment construction, pattern drafting, tailoring, and fashion illustration—empowering you to create, innovate, and lead in the fashion industry."
               }
             />
           </div>

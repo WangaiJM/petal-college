@@ -12,7 +12,7 @@ const NavBar = () => {
     <nav className="nav">
       <h1 className="nav__logo">
         <a href="/" className="nav__link">
-          Petal College
+          Petal Ladies Vocational Training Center
         </a>
       </h1>
       <button className="nav__button" onClick={() => setIsOPen(!isOpen)}>
