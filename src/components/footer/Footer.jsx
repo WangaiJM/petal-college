@@ -1,3 +1,5 @@
+import ButtonTop from "../buttonTop/ButtonTop";
+
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -83,6 +85,7 @@ const Footer = () => {
       <div className="footer__copyright">
         <p>Copyright &copy; {new Date().getFullYear()}</p>
       </div>
+      <ButtonTop />
     </div>
   );
 };

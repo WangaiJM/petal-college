@@ -10,7 +10,11 @@
   border-bottom: 2px solid var(--border-color);
 
   &__logo {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+
+    img {
+      display: none;
+    }
   }
   a {
     color: var(--accent-color);
@@ -55,10 +59,23 @@
     font-weight: 600;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 720px) {
   .nav {
     &__button {
       display: none;
+    }
+    &__logo {
+      font-size: 1.8rem;
+
+      img {
+        display: inline-block;
+        width: 3rem;
+        height: 3rem;
+        margin: 0 1rem;
+      }
+    }
+    a {
+      color: var(--accent-color);
     }
     &__list {
       background-color: transparent;

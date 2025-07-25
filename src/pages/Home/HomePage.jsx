@@ -3,7 +3,6 @@ import Banner from "../../components/banner/Banner";
 import WelcomeSection from "../../components/welcome/WelcomeSection";
 import Card from "../../components/Card/Card";
 import Footer from "../../components/footer/Footer";
-import ButtonTop from "../../components/buttonTop/ButtonTop";
 
 import "./HomePage.scss";
 
@@ -23,12 +22,7 @@ const HomePage = () => {
   return (
     <>
       <NavBar />
-      <Banner
-        title={
-          "Empowering Girls Through Practical Skills and Lifelong Learning"
-        }
-        message={""}
-      />
+      <Banner title={"Nurturing Futures By God's Grace"} message={""} />
       <WelcomeSection
         title={"Welcome to Petal Girls Vocational Training Center"}
         message={welcome__message}
@@ -70,7 +64,6 @@ const HomePage = () => {
       </section>
       {/* End Courses Section */}
       <Footer />
-      <ButtonTop />
     </>
   );
 };
