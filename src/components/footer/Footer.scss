@@ -1,0 +1,141 @@
+@use "sass:color";
+
+.footer {
+  background-color: #ececec;
+  padding: 1.2rem;
+
+  &__title {
+    color: var(--accent-color);
+  }
+  &__info {
+    background-color: color.adjust(#ececec, $lightness: 5%);
+    padding: 1rem;
+    border-radius: 0 4rem 0 2rem;
+    box-shadow: 0 0 0 0.1rem rgba(0, 26, 255, 0.25);
+  }
+  &__address {
+    margin-bottom: 2rem;
+  }
+  &__links,
+  &__dept {
+    background-color: color.adjust(#ececec, $lightness: -5%);
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 0 0.1rem rgba(0, 255, 42, 0.25);
+
+    &-title {
+      color: var(--link-color);
+      margin-left: 1.5rem;
+    }
+  }
+  &__items {
+    padding: 1.2rem;
+    a {
+      color: var(--text-color);
+      background-color: color.adjust(green, $lightness: 80%);
+      width: 100%;
+      display: block;
+      margin-bottom: 0.5rem;
+      padding: 0.8rem;
+      border-radius: 0.8rem;
+      font-weight: 500;
+
+      &:hover {
+        background-color: color.adjust(green, $lightness: 50%);
+        color: #ececec;
+      }
+    }
+  }
+  &__socials {
+    background-color: color.adjust(grey, $lightness: -85%);
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border-radius: 5rem 0 3rem 0;
+    transition: all 600ms ease-in-out;
+
+    &:hover {
+      border-radius: 0 5rem 0 3rem;
+    }
+
+    &-title {
+      color: var(--accent-color);
+    }
+
+    &-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 1rem 0;
+    }
+    &-item {
+      padding: 2rem;
+      border-radius: 50%;
+      cursor: pointer;
+      background-color: color.adjust(white, $lightness: -90%);
+      transition: all 400ms ease;
+
+      &:hover {
+        scale: 1.05;
+
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+  &__copyright {
+    text-align: center;
+    padding: 3rem;
+  }
+}
+@media (min-width: 650px) {
+  .footer {
+    &__title {
+      text-align: center;
+      text-transform: uppercase;
+      padding: 2rem 0;
+    }
+    .container {
+      display: flex;
+      column-gap: 1rem;
+    }
+    &__info,
+    &__links,
+    &__dept,
+    &__socials {
+      background-color: color.adjust(black, $lightness: 80%);
+
+      flex: 1;
+      margin: 0;
+      border-radius: 2rem;
+      padding: 0.5rem;
+      font-size: 1.4rem;
+
+      &-title {
+        font-size: 1.6rem;
+        text-align: center;
+      }
+      &-items {
+        margin: 0;
+      }
+      &-item {
+        padding: 1rem;
+        margin: 0;
+      }
+    }
+    &__info {
+      padding: 4rem 2rem;
+    }
+    &__socials {
+      &-items {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      &-item {
+        margin: 1rem 0;
+      }
+    }
+  }
+}

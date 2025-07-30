@@ -1,0 +1,33 @@
+/* ==== THEME ==== */
+
+/* Base (Light Mode) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --link-color: #007bff;
+  --accent-color: #28a745;
+  --muted-text: #666666;
+  --border-color: #dddddd;
+
+  --card-bg: #f9f9f9;
+  --input-bg: #ffffff;
+  --input-border: #cccccc;
+
+  --shadow-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #eeeeee;
+  --link-color: #4dabf7;
+  --accent-color: #66ff99;
+  --muted-text: #aaaaaa;
+  --border-color: #333333;
+
+  --card-bg: #1e1e1e;
+  --input-bg: #1a1a1a;
+  --input-border: #444444;
+
+  --shadow-color: rgba(0, 0, 0, 0.2);
+}

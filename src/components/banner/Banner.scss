@@ -1,0 +1,59 @@
+.banner {
+  height: 40rem;
+  max-height: 40rem;
+  background-color: var(--accent-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg-color);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+
+  &__title {
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1.2;
+  }
+  &__message {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  &__button {
+    border: 1px solid var(--bg-color);
+    border-radius: 5rem;
+    padding: 1.2rem 3.6rem;
+    margin-top: 4rem;
+    color: var(--bg-color);
+    transition: all 600ms ease-in-out;
+
+    &:hover {
+      background-color: var(--bg-color);
+      color: var(--accent-color);
+    }
+  }
+}
+.banner-home {
+  background-image: url("../../assets/images/classroom.jpg");
+}
+.banner-about {
+  background-image: url("../../assets/images/admin_block.jpg");
+}
+.banner-admissions {
+  background-image: url("../../assets/images/classroom.jpg");
+}
+.banner-programs {
+  background-image: url("../../assets/images/classroom.jpg");
+}
+.banner-gallery {
+  background-image: url("../../assets/images/fashion_design.jpg");
+}
+.banner-donate {
+  background-image: url("../../assets/images/donation.jpg");
+}

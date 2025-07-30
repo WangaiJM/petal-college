@@ -1,0 +1,15 @@
+@import url("./assets/css/theme.scss");
+@import url("./assets/css/reset.scss");
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+@media (min-width: 48rem) {
+  .container {
+    width: 80%;
+  }
+}
