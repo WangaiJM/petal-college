@@ -24,6 +24,8 @@ const Partners = () => {
       <div className="center">
         <p>
           <strong>Barbara Dougan Foundation</strong>
+        </p>
+        <p>
           <strong>Barry Topple Family</strong>
         </p>
       </div>
